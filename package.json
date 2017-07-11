@@ -1,0 +1,25 @@
+{
+  "name": "gulp-filechange",
+  "version": "1.0.0",
+  "description": "Change (Vinyl) file objects while passing through a Gulp stream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WVmf/gulp-filechange.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Wouter Vanmontfort",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
